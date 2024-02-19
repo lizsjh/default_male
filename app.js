@@ -94,7 +94,7 @@ botui.message.add({
 }).then(function(){
     sendcomplete();
     return botui.message.add({
-        delay:4000,
+        delay:3000,
         loading: true,
         photo: true,
         content:'Enjoy the meal soon and see you next time. Bye.'
